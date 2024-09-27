@@ -1,0 +1,46 @@
+https://dribbble.com/shots/24210667-Sunscreen-Ecommerce-Web-Design
+
+Create a collective market place for both customers and sellers.
+Create a custom section for the members who want to open thier shops,
+First create frontend of the form and styled it 
+the form will collect the following information of users
+name
+age
+enter your shop name
+what you will sell in your shop
+do you have any physical pesence of your business
+phonenumber
+location
+email for customer queries
+email
+
+Create an ecommerce look website for customers and each product will show credit to the owner
+Design product card that have a good looking image of product with responsive dimensions. card have name of product, short description upto 15 normal words, Price, add to cart button and a special section which display the options for like icon, share with othermember icon and add to wishlist icon
+Create navbar again with heart icon and shopping cart icon ------------(done)
+Create another page for home section and shift the section-4 on that page ------------(done)
+Create sleek and responsive design upto 320px wide ------------(done)
+Create background images for section-4 and section-5
+On creating shop the marketer have thier own customized dashboard
+On the dashboard the marketer can perform the following operations.
+1. The marketer must be able to create new entry. On entry the user have to fill out the validated form which have the following information like name of product. description. title. price. discount(optional). and no of stock, image. features. and submit button to submit that form.
+2. On submitting the form store will create new entry and show the product data in cards in the main market place
+3. The user should be able to see who is engaging with his product , likes,ratings,sales.
+
+meanswhile if the marketer has created 1 entry with 12 no of stocks so when the customers buy that 12 times. the product is now out of stock push notification on marketer's dashboard and remind him for more stock management.
+Create like functionality on dbl click on every card available on marketplace
+Create cards
+
+layout:
+navbar
+section-1 : Hero
+section-2 : Short introduction
+section-3 : Categories
+section-4 : Want to open a shop . It's free
+section-5 : Why us
+section-6 : signup for best selling product to be notified
+section-8 : footer
+
+
+insert that image in clock app https://i.pinimg.com/564x/39/f0/bb/39f0bb0664cdf534463580ecd4c6a0d9.jpg
+
+hot water, eno lemon juice coconut oil, shampoo, 1tbs coffee, 2tbs flour,
