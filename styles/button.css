@@ -1,0 +1,38 @@
+button {
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-family: var(--primary-font);
+    font-size: 1.1rem;
+    border: none;
+}
+button:hover {
+    transform: rotateX(360deg);
+    transition: 1s ease;
+}
+.btn-1 {
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-family: var(--primary-font);
+    font-size: 1.1rem;
+    border: none;
+    background:var(--white-color);
+}
+.btn-2 {
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-family: var(--primary-font);
+    font-size: 1.1rem;
+    border: none;
+    color: var(--white-color);
+    background:var(--black);
+}
+.add-to-cart {
+    font-family: var(--secondary-font);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: var(--primary-font);
+    font-size: 1.1rem;
+    border: none;
+    color: var(--white-color);
+    background:var(--black);
+}

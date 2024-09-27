@@ -1,0 +1,125 @@
+header {
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+  }
+  /* Navbar Styles */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: var(--white-color);
+    color: var(--black);
+    display: flex;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem ;
+  }
+  
+  .l-options-cont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    font-size: 1.2rem;
+  }
+  .heart::before {
+    content: "1";
+    font-size: 0.8rem;
+    background: red;
+    border-radius: 50%;
+    text-align: center;
+    width: 20px;
+    z-index: 1;
+    height: 20px;
+    padding: 4px 8px;
+    position: relative;
+    top: 0.8rem;
+    bottom: 0;
+    right: 0;
+  } 
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Hide the checkbox for the hamburger menu */
+  #menu-toggle {
+    display: none;
+  }
+  
+  /* Desktop menu (displayed by default) */
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+  }
+  .nav-links > li {
+    border: 3px solid transparent;
+    padding: 20px;
+    transition: all 0.15s linear;
+  }
+  .nav-links > li > a {
+    color: var(--black);
+    font-weight: bold;
+    font-family: var(--primary-font);
+  }
+  .nav-links > li:hover {
+    border-bottom: 3px solid white;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+
+  /* Hamburger menu icon (hidden on larger screens) */
+  .hamburger {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  /* Media Queries for smaller screens */
+  @media (max-width: 768px) {
+    header {
+        position: fixed;
+        width: 100%;
+    }
+    .nav-links {
+      position: absolute;
+      top: 100px;
+      left: 0;
+      background-color: rgba(255,255,255,0.3);
+      backdrop-filter: blur(10px);
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      display: none;
+    }
+  
+    /* Show the menu when checkbox is checked */
+    #menu-toggle:checked + .hamburger + .nav-links {
+      display: flex;
+    }
+  
+    /* Hamburger menu appears on smaller screens */
+    .hamburger {
+      display: block;
+    }
+  
+    .nav-links li {
+      padding: 1rem 0;
+    }
+    .logo {
+        position: absolute;
+        left: 6rem;
+    }
+  }
+  
