@@ -1,0 +1,1 @@
+export const bucketCounter = { count: 0 }; // Mutable object
