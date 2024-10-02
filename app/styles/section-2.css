@@ -1,0 +1,33 @@
+.section-2 {
+    width: auto;
+    height: 600px;
+    padding: 30px;
+    text-align: center;
+    background-image:url('../../public/images/background-2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-2 > h3 {
+    font-size: 3rem;
+    font-family: var(--primary-font);
+    line-height: 70px;
+    font-weight: bold;
+    text-align: center;
+}
+.s-2-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+@media (max-width:500px) {
+    .section-2 > h3 {
+        font-size: 2rem;
+    }
+}
+@media (max-width:450px) {
+    .section-2 {
+        padding: 150px 30px;
+    }
+}

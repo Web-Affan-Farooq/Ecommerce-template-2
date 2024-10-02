@@ -1,0 +1,72 @@
+footer {
+    width: auto;
+    padding: 50px 20px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--secondary-font);
+    gap: 30px;
+    border-radius: 40px 50px 0px 0px;
+    box-shadow: 0px 0px 100px 100px var(--white-color);
+}
+
+.f-container {
+    padding: 20px 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-options {
+    text-align: center;
+    padding: 10px 20px; 
+    width: 100%;
+}
+
+.f-options > a {
+    color: var(--black);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Styles for devices with max-width 830px */
+@media (max-width: 880px) {
+    footer {
+        padding: 40px;
+        gap: 50px;
+        flex-direction: row;
+    }
+
+    .f-container {
+        padding: 0px 10px;
+        gap: 0;
+    }
+
+    .f-options {
+        padding: 10px;
+    }
+}
+
+@media (max-width:660px) {
+    footer {
+        padding: 40px;
+        gap: 30px;
+        flex-direction: row;
+    }
+
+    .f-container {
+        padding: 0px 10px;
+        gap: 0;
+    }
+
+    .f-options {
+        padding: 10px;
+    }
+}

@@ -1,0 +1,25 @@
+.section-1 {
+    width:auto;
+    height: 500px;
+    padding: 200px 20px;
+}
+.s-1-content {
+    width: 600px;
+    padding: 20px;
+    color: black;
+}
+.s-1-content > h1 {
+    font-size: 3rem;
+    font-family: var(--primary-font);
+    line-height: 70px;
+    font-weight: bold;
+}
+@media (max-width:680px) {
+    .section-1 {
+        padding: 100px 0;
+    }
+    .s-1-content {
+        width: auto;
+        padding: 40px;
+    }
+}
